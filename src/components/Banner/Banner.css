@@ -1,0 +1,27 @@
+.banner-container {
+    position: relative;
+    width: 550px;
+    height: 460px;
+  }
+  
+  .animated-img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    animation: imageSlider 8s infinite;
+  }
+  
+  .img1 { animation-delay: 0s; }
+  .img2 { animation-delay: 2s; }
+  .img3 { animation-delay: 4s; }
+  .img4 { animation-delay: 6s; }
+  
+  @keyframes imageSlider {
+    0% { opacity: 0; }
+    5% { opacity: 1; }
+    25% { opacity: 1; }
+    30% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  
